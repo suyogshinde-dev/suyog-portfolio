@@ -13,7 +13,7 @@ export default function Experience() {
         <SectionHeader
           badge="Internship Experience"
           title="Industry &amp; Virtual Internships"
-          subtitle="Practical technical training and hands-on internship programs across web development, mobile systems, and data analytics."
+          subtitle="Hands-on internship programs across Android development, data analytics, and data engineering."
         />
 
         <div className="max-w-4xl mx-auto">

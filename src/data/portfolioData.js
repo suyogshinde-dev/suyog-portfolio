@@ -26,24 +26,21 @@ export const portfolioData = {
   internships: [
     {
       id: 1,
-      role: "Web Development Intern",
-      organization: "SBT Enterprise, Satara",
-      duration: "1 Month",
-      badge: "Web Development"
+      role: "Android Developer Virtual Internship",
+      organization: "EduSkills",
+      duration: "10 weeks"
     },
     {
       id: 2,
-      role: "Android Developer Virtual Intern",
-      organization: "EduSkills",
-      duration: "10 Weeks",
-      badge: "Mobile Engineering"
+      role: "Data Analytics Summer Internship",
+      organization: "IBM SkillsBuild",
+      duration: "2 months"
     },
     {
       id: 3,
-      role: "Data Analytics Summer Intern",
-      organization: "IBM SkillsBuild",
-      duration: "2 Months",
-      badge: "Data Analytics"
+      role: "Data Engineering Virtual Internship",
+      organization: "EduSkills",
+      duration: "10 weeks"
     }
   ],
 
