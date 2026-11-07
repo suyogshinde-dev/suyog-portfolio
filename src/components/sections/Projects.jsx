@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Database, Layers, CheckCircle, Code, ShieldCheck, PieChart, Clock } from 'lucide-react';
+import { Github, Database, Layers, CheckCircle, Code, ShieldCheck, PieChart, Clock } from 'lucide-react';
 import SectionHeader from '../common/SectionHeader';
 import TechTag from '../common/TechTag';
 import { portfolioData } from '../../data/portfolioData';
@@ -86,47 +86,17 @@ export default function Projects() {
                     </div>
                   </div>
 
-                  {/* Action Buttons & Placeholders */}
-                  <div className="pt-4 border-t border-white/5 flex flex-wrap items-center gap-3">
-                    {project.githubUrl ? (
-                      <a
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-navy-900 border border-white/10 hover:border-cyan-500 text-slate-200 hover:text-white transition-colors"
-                      >
-                        <Github className="w-4 h-4" />
-                        <span>Source Code</span>
-                      </a>
-                    ) : (
-                      <div
-                        className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-mono bg-navy-900/60 border border-white/10 text-slate-400 cursor-not-allowed select-none"
-                        title="Repository link pending URL configuration"
-                      >
-                        <Github className="w-3.5 h-3.5 text-slate-500" />
-                        <span>GitHub: [Link Pending]</span>
-                      </div>
-                    )}
-
-                    {project.demoUrl ? (
-                      <a
-                        href={project.demoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-cyan-600 hover:bg-cyan-500 text-white transition-colors"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                        <span>Live Preview</span>
-                      </a>
-                    ) : (
-                      <div
-                        className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-mono bg-navy-900/60 border border-white/10 text-slate-400 cursor-not-allowed select-none"
-                        title="Live demo link pending URL configuration"
-                      >
-                        <ExternalLink className="w-3.5 h-3.5 text-slate-500" />
-                        <span>Live Demo: [Link Pending]</span>
-                      </div>
-                    )}
+                  {/* Action Button: View on GitHub */}
+                  <div className="pt-4 border-t border-white/5 flex items-center">
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2.5 px-4 sm:px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold text-white bg-navy-900 border border-cyan-500/30 hover:border-cyan-400 hover:bg-navy-850 hover:text-cyan-300 shadow-sm hover:shadow-glow-cyan/20 transition-all duration-200 active:scale-95 group/btn"
+                    >
+                      <Github className="w-4 h-4 text-cyan-400 group-hover/btn:scale-110 transition-transform" />
+                      <span>View on GitHub</span>
+                    </a>
                   </div>
                 </div>
               </motion.article>

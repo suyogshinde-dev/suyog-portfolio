@@ -55,9 +55,8 @@ export const portfolioData = {
         "Created an intuitive React.js interface with real-time search, filters, and dynamic record editing",
         "Engineered relational database schema in MySQL for optimized query retrieval and data consistency"
       ],
-      githubUrl: null, // Marked pending per instructions
-      demoUrl: null,   // Marked pending per instructions
-      status: "Production Ready / Repositories Upon Request"
+      githubUrl: "https://github.com/suyogshinde-dev/student-management-system",
+      status: "Production Ready"
     },
     {
       id: 2,
@@ -69,9 +68,8 @@ export const portfolioData = {
         "Built backend analytics logic in Django REST Framework to aggregate monthly spending trends",
         "Rendered interactive visualization dashboards using React and Recharts with responsive data views"
       ],
-      githubUrl: null, // Marked pending per instructions
-      demoUrl: null,   // Marked pending per instructions
-      status: "Production Ready / Repositories Upon Request"
+      githubUrl: "https://github.com/suyogshinde-dev/expense-tracker-analytics",
+      status: "Production Ready"
     }
   ],
 
